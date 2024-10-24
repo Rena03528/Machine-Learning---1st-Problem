@@ -16,7 +16,3 @@ for i in range(num_outliers_to_remove):
     cleaned_y_train = np.delete(cleaned_y_train, idx, axis=0)
     
     num_outliers_removed += 1
-    
-print(f"Número de outliers removidos: {num_outliers_removed}")
-print(f"Dimensão dos dados limpos: {cleaned_x_train.shape}")
-print(f"Dimensão dos dados limpos: {cleaned_y_train.shape}")
